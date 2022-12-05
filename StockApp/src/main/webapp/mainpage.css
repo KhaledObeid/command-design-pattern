@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url(stockgraphs.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: serif;
+}
+
+header {
+    margin-top: 0;
+}
+
+nav {
+    width: 100%;
+    height: 62px;
+    background-color: #1e7d11;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 62px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial;
+    color: rgb(236, 243, 242);
+    padding: 0 60px;
+}
+
+ul li :hover {
+    transition: 1s;
+    background-color: #061e03;
+}
+
+li {
+    border-right: 1px solid rgb(7, 1, 41);
+}
+
+nav ul input[type=text] {
+    float: right;
+    padding: 12px;
+    border: #041401;
+    margin-top: 8px;
+    margin-right: 4px;
+    font-size: 17px;
+}
+
+h1 {
+    color: rgb(226, 255, 4);
+}
+
+h2 {
+    color: rgb(226, 255, 4);
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+input[type=text],
+input[type=number] {
+    border: 2px solid red;
+    background-color: rgb(226, 255, 4);
+    ;
+    color: darkgreen;
+    padding: 14px 32px;
+    font-size: 20px;
+}
+
+input[type=submit] {
+    background-color: #1e7d11;
+    color: rgb(226, 255, 4);
+    padding: 1px 2px;
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    position: relative;
+    top: 0px;
+}
+
+form {
+    position: absolute;
+    top: 210px;
+    left: 40%;
+    color: white;
+    font-size: 40px;
+}
+
+.back {
+    background-color: #1e7d11;
+    color: rgb(249, 212, 4);
+    padding: 15px 32px;
+    text-align: center;
+    display: flex;
+    height: 90px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 300px;
+    left: 40%;
+    border-radius: 12px;
+}
+
+.custom-select {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(226, 255, 4);
+    border: 1px solid transparent;
+    color: darkgreen;
+}
+
+select {
+    border: 1px solid transparent;
+}
